@@ -11,7 +11,7 @@ api.load_settings("insta.cookie")
 
 def get_media_info(url):
 
-    mpk = api.media_pk_from_url("https://www.instagram.com/reel/C1RgkuYrocp/?utm_source=ig_web_copy_link")
+    mpk = api.media_pk_from_url(url)
 
     # print(mpk)
 
